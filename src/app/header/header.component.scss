@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #23272a;
+    color: #ffffff;
+    width:100%;
+    height: auto;
+    .logo{
+        flex:1;
+        font-weight: 500;
+        padding: 0.5rem;
+        font-size: 40px;
+        display: flex;
+        img{
+            width: 4rem;
+            margin-left: 6rem;
+            border-radius: 2rem;
+        }
+        div{
+            margin-top: 0.5rem;
+        }
+    }
+    .menu{
+        flex: 1;
+        ul{
+            display: flex;
+            list-style: none;
+            margin-top: 30px;
+            flex-flow: row wrap;
+            li{
+                flex: 1;
+                text-align: center;
+            }
+        }
+    }
+}
